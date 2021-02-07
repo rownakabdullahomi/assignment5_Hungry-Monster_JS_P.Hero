@@ -1,0 +1,30 @@
+#meals{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.meal {
+    border: 1px solid black;
+    border-radius: 20px;
+    /* padding: 20px; */
+    width: 240px;
+    margin: 20px;
+    height: 280px;
+    overflow: hidden;
+}
+.meal img{
+    height: 200px;
+    width: 240px;
+}
+.meal p {
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 16px;
+}
+.thumbimage{
+    height: 100px;
+    width: 100px;
+}
+#detailsInfo img{
+    height: 350px;
+    width: 500px;
+}
